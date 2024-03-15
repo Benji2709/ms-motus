@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+        }
+        h1 {
+            text-align: center;
+        }
+        .score-info {
+            margin-top: 30px;
+        }
+        .score-info p {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Score Page</h1>
+        <div class="score-info">
+            <p>Nombre de fois où vous avez trouvé le bon mot : <span id="totalScore">0</span></p>
+            <p>Moyenne d'essais pour trouver le mot : <span id="averageScore">0</span></p>
+        </div>
+    </div>
+    <script src="script_score.js">
+        const userId = '123';
+    </script>
+</body>
+
+</html>

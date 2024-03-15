@@ -1,0 +1,4 @@
+1.docker-compose up -d
+2.docker ps
+3 ensuite browser and localhost:3000
+4.mdp : admin pwd:admin
